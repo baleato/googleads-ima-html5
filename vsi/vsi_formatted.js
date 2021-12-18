@@ -1184,6 +1184,7 @@ SPDX-License-Identifier: Apache-2.0
                 e.adTagUrl = d;
                 e.linearAdSlotWidth = e.nonLinearAdSlotWidth = Tb;
                 e.linearAdSlotHeight = e.nonLinearAdSlotHeight = Ub;
+                e.forceNonLinearFullSlot = document.getElementById('force-non-linear-full-slot').checked;
                 c.l.requestAds(e)
             })
         }
@@ -1200,6 +1201,7 @@ SPDX-License-Identifier: Apache-2.0
                 e.adsResponse = d;
                 e.linearAdSlotWidth = e.nonLinearAdSlotWidth = c.i.clientWidth;
                 e.linearAdSlotHeight = e.nonLinearAdSlotHeight = c.i.clientHeight;
+                e.forceNonLinearFullSlot = document.getElementById('force-non-linear-full-slot').checked;
                 c.l.requestAds(e)
             })
         }
